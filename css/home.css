@@ -1,0 +1,142 @@
+:root {
+    --bodybgcolor: #334756;
+    --hovernav   : #FEE440;
+    --headerbgc  : #082032;
+    --softtitle  : #69DADB;
+    --headertxtc : #F9F7F7;
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+
+
+.home-title-wrap {
+    color          : var(--headertxtc);
+    margin-top     : 8%;
+    padding        : 5px;
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    position       : absolute;
+}
+
+.home-title-wrap h1 {
+    font-size : 60px;
+    margin-top: 50px;
+}
+
+.homesoft-span {
+    color    : var(--softtitle);
+    font-size: 75px;
+}
+
+.home-bg-wrap{
+    padding: 10px;
+}
+.home-bg-wrap a {
+    text-decoration: none;
+    color          : var(--headertxtc);
+}
+
+.tec-wrap {
+    height           : 350px;
+    margin           : 10px;
+    border-radius    : 10px;
+    background-image : url("../img/softvission-home-tecnologia2.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    align-items      : center;
+    display          : grid;
+    justify-content  : center;
+    border           : 2px solid #f9f7f7
+}
+
+.mar-wrap {
+    height           : 350px;
+    margin           : 10px;
+    border-radius    : 10px;
+    background-image : url("../img/softvission-home-maritima2.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    align-items      : center;
+    display          : flex;
+    justify-content  : center;
+    border           : 2px solid #f9f7f7
+}
+
+.softvission-tec p {
+    color: var(--headertxtc);
+}
+
+.softvission-tec h2 {
+    color: var(--softtitle);
+}
+
+.softvission-mar p {
+    color: var(--headertxtc);
+}
+
+.softvission-mar h2 {
+    color: var(--softtitle);
+}
+
+.home-row {
+    position       : absolute;
+    justify-content: center;
+    margin-top     : 20rem;
+    width          : 100%;
+}
+
+.download-icon {
+    font-size: 15px;
+    margin   : 3px;
+}
+
+.enter-icon {
+    font-size: 15px;
+}
+
+.btn-enter {
+    margin: 5px;
+}
+
+@media (max-width: 1366px) {
+    .home-bg-wrap {
+        height: 100vh;
+    }
+
+    .home-title-wrap h1 {
+        font-size: 40px;
+    }
+
+    .homesoft-span {
+        color    : var(--softtitle);
+        font-size: 65px;
+    }
+}
+
+
+@media(max-width: 355px) {
+    .home-title-wrap h1 {
+        font-size : 30px;
+        margin-top: 50px;
+    }
+
+    .home-title-wrap {
+        margin-top: 15%;
+    }
+
+    .btn-enter {
+        padding: 3px;
+    }
+
+    .btn-download {
+        padding: 3px;
+    }
+
+    .homesoft-span {
+        color    : var(--softtitle);
+        font-size: 50px;
+    }
+}

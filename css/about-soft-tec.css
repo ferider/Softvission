@@ -1,0 +1,78 @@
+:root {
+    --bodybgcolor: #334756;
+    --hovernav   : #FEE440;
+    --headerbgc  : #082032;
+    --softtitle  : #69DADB;
+    --headertxtc : #F9F7F7;
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+
+.about-wrap {
+    margin-left  : 53px;
+    width        : 90%;
+    height       : 375px;
+    margin-top   : 80px;
+    padding      : 0.1px;
+    border-radius: 15px;
+}
+
+.about {
+    width            : 100%;
+    height           : 350px;
+    border-radius    : 10px;
+    box-shadow       : 1px 1px 0px rgb(44, 44, 42);
+    background-image : url("../img/bg_sky2_about.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    display          : flex;
+    flex-direction   : column;
+    align-items      : center;
+    text-align       : justify;
+    justify-content  : center;
+    color            : var(--headertxtc);
+    font-size        : 20px;
+    border           : 2px solid #f9f7f7
+}
+
+.about h3 {
+    color    : var(--softtitle);
+    font-size: 28px;
+}
+
+.about p {
+    padding: 20px
+}
+
+@media (max-width: 1023px) {
+    .about {
+        font-size: 16px;
+    }
+
+    .about h3 {
+        font-size: 20px;
+    }
+
+    .about p {
+        padding: 15px;
+    }
+
+    .about-wrap {
+        margin-left: 0px;
+        width      : 100%;
+    }
+}
+
+@media (max-width:355px) {
+    .about {
+        font-size: 14px;
+    }
+
+    .about h3 {
+        font-size: 20px;
+    }
+
+    .about p {
+        padding: 10px;       
+    }
+}

@@ -1,0 +1,26 @@
+:root {
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+/*FOOTER*/
+.footer {
+    background-color: var(--footerbgc);
+    height          : 100px;
+    color           : var(--footertxtc);
+    text-align      : center;
+    padding         : 15px;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        text-align: center;
+        height    : 120px;
+        font-size  : 14px;
+    }
+}
+
+@media (max-width:355px) {
+    .footer {
+        height: 130px;
+    }
+}

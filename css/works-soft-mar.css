@@ -1,0 +1,131 @@
+:root {
+    --bodybgcolor: #334756;
+    --hovernav   : #FEE440;
+    --headerbgc  : #082032;
+    --softtitle  : #69DADB;
+    --headertxtc : #F9F7F7;
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+
+.works {
+    margin-top      : 60px;
+    border-radius   : 10px;
+    text-align      : justify;
+    color           : var(--headertxtc);
+    font-size       : 18px;
+    padding         : 10px;
+    background-color: var(--headerbgc);
+    border          : 2px solid #f9f7f7
+}
+
+.works h3 {
+    margin-top: 0px;
+    color     : var(--softtitle);
+    text-align: center;
+}
+
+.works-wrap .works {
+    width      : 90.5%;
+    margin-left: 50px;
+}
+
+.works-wrap {
+    padding      : 0px;
+    border-radius: 15px;
+}
+
+.work {
+    margin-top      : 60px;
+    border-radius   : 10px;
+    text-align      : justify;
+    color           : var(--headertxtc);
+    font-size       : 18px;
+    padding         : 10px;
+    background-color: var(--headerbgc);
+    width           : 40%;
+    margin          : 3%;
+    margin-left     : 65px;
+    border          : 2px solid #f9f7f7
+}
+
+.card-row-works .card {
+    background-color: var(--headerbgc);
+    border          : none;
+}
+
+.card-row-works h5 {
+    margin-top: 10px;
+}
+
+.card-row-works .card img {
+    border-radius: 15px;
+}
+
+.card-text-work {
+    text-align: justify;
+    padding   : 5px;
+    font-size : 17px;
+    color     : var(--headertxtc);
+}
+
+@media (max-width: 1023px) {
+    .works {
+        padding: 15px;
+        height : auto;
+    }
+
+
+    .works p {
+        text-align: justify;
+        padding   : 10px;
+    }
+
+    .works h3 {
+        font-size : 20px;
+        text-align: center;
+    }
+    .card-text-work{
+        font-size : 14px;
+    }
+
+    .card-row-works .card {
+        background-color: var(--bodybgcolor);
+        border          : none;
+    }
+
+    .work {
+        margin-top : 50px;
+        width      : 100%;
+        margin-left: 15px;
+    }
+
+    .card-row-works h5 {
+        margin-top: 10px
+    }
+
+    .card-row-works .card img {
+        width        : 100%;
+        border-radius: 15px;
+    }
+
+    .card-row-works {
+        margin-right: 16px;
+    }
+
+    .works-wrap .works {
+        width      : 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:355px) {
+    .works h3 {
+        font-size: 20px;
+    }
+
+    .works p {
+        padding  : 0px;
+        font-size: 15px;
+    }
+}

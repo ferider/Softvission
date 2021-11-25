@@ -1,0 +1,74 @@
+:root {
+    --bodybgcolor: #334756;
+    --hovernav   : #FEE440;
+    --headerbgc  : #082032;
+    --softtitle  : #69DADB;
+    --headertxtc : #F9F7F7;
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+
+.about-mar-wrap {
+    width        : 100%;
+    padding      : 0.1px;
+    border-radius: 15px;
+}
+
+.about-mar {
+    margin-top       : 130px;
+    margin-left      : 53px;
+    width            : 90%;
+    height           : 350px;
+    border-radius    : 10px;
+    background-image : url("../img/radar-bg.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    display          : flex;
+    flex-direction   : column;
+    align-items      : center;
+    text-align       : justify;
+    justify-content  : center;
+    color            : var(--headertxtc);
+    font-size        : 20px;
+    padding          : 15px;
+    border           : 2px solid #f9f7f7
+}
+
+.about-mar h3 {
+    color: var(--softtitle);
+    font-size: 28px;
+}
+
+
+
+@media (max-width: 1023px) {
+    .about-mar {
+        font-size : 16px;
+        padding    : 15px;
+        margin-left: 0px;
+        width      : 100%;
+        height     : auto;
+    }
+
+    .about-mar p {
+        padding   : 3px;
+        text-align: justify;
+    }
+
+    .about-mar h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:355px) {
+    .about-mar {
+        font-size: 14px;
+    }
+    .about-mar h3 {
+        font-size: 20px;
+    }
+
+    .about-mar p {
+        padding  : 0px;   
+    }
+}

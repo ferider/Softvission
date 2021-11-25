@@ -1,0 +1,163 @@
+:root {
+    --bodybgcolor: #334756;
+    --hovernav   : #FEE440;
+    --headerbgc  : #082032;
+    --softtitle  : #69DADB;
+    --headertxtc : #F9F7F7;
+    --footerbgc  : #2B2B2B;
+    --footertxtc : #AAAAAA;
+}
+
+.intro-services {
+    margin-left     : 53px;
+    width           : 90%;
+    background-color: var(--headerbgc);
+    color           : var(--headertxtc);
+    text-align      : justify;
+    padding         : 15px;
+    padding-bottom  : 3px;
+    border-radius   : 15px;
+    font-size       : 19px;
+    border          : 2px solid #f9f7f7
+}
+
+
+.intro-services h3 {
+    color    : var(--softtitle);
+    font-size: 25px;
+    text-align: center;
+}
+.card-title-tec {
+    text-align: center;
+    color     : var(--softtitle);
+    font-size : 21px;
+}
+
+.action-tec {
+    margin-top      : 60px;
+    border-radius   : 10px;
+    text-align      : justify;
+    color           : var(--headertxtc);
+    font-size       : 18px;
+    padding         : 10px;
+    background-color: var(--headerbgc);
+    width           : 40%;
+    margin          : 3%;
+    margin-left     : 65px;
+    border          : 2px solid #f9f7f7
+}
+
+.card-row-tec .card {
+    background-color: var(--headerbgc);
+    border          : none;
+}
+
+.card-row-tec h5 {
+    margin-top: 10px;
+}
+
+.card-row-tec .card img {
+    border-radius: 15px;
+}
+
+.card-text-tec {
+    text-align: justify;
+    font-size : 17px;
+    color     : var(--headertxtc);
+}
+
+.assist-tec {
+    margin-top      : 60px;
+    border-radius   : 10px;
+    text-align      : left;
+    color           : var(--headertxtc);
+    font-size       : 18px;
+    padding         : 10px;
+    background-color: var(--headerbgc);
+    width           : 90%;
+    margin          : 0%;
+    margin-left     : 54px;
+    border          : 2px solid #f9f7f7
+}
+
+.assist-tec h3 {
+    text-align: center;
+    color     : var(--softtitle);
+    font-size : 25px;
+}
+
+.assist-wrap-tec {
+    width: 100%;
+}
+
+@media (max-width: 1023px) {
+
+    .assist-wrap-tec {
+        padding: 0px
+    }
+
+    .card-title-tec {
+        text-align: center;
+        font-size       : 19px;
+    }
+
+    .card-row-tec .card {
+        background-color: var(--bodybgcolor);
+        border          : none;
+    }
+
+    .action-tec {
+        margin-top : 50px;
+        width      : 100%;
+        margin-left: 15px;
+
+    }
+
+    .assist-tec {
+        margin: 15px;
+        width : 100%;
+    }
+    .assist-tec p {
+        font-size: 14px;
+    }
+    .assist-tec h3 {
+        font-size: 19px;
+    }
+
+    .card-row-tec h5 {
+        margin-top: 10px
+    }
+
+    .card-row-tec .card img {
+        width        : 100%;
+        border-radius: 15px;
+    }
+
+    .card-text-tec {
+        font-size : 14px;
+    }
+    .card-row-tec {
+        margin-right: 16px;
+    }
+
+    .intro-services {
+        margin-left: 0px;
+        width      : 100%;
+        font-size  : 14px;
+    }
+    .intro-services h3{
+        font-size  : 20px;
+    }
+}
+
+@media (max-width:355px) {
+    .intro-services {
+        font-size: 14px;
+    }
+    .card-text-tec {
+        font-size : 14px;
+    }
+    .assist-tec {
+        font-size       : 14px;
+    }
+}
